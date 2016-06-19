@@ -28,7 +28,8 @@ stream wrapper collection both for Linux & Android
 
 ## Author
 
-peter_future@outlook.com
+* [peter](peter_future@outlook.com)
+* [xiaoxiong161](https://github.com/xiaoxiong161)
 
 # Licence
 
