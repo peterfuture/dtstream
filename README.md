@@ -1,5 +1,35 @@
-# dtstream
-protocal collection
+# dtcodec
 
-# 测试：
+av decoder & encoder both for Linux & Android
+
+## Feature
+
+Video Encoder
+* H264 - X264 √
+
+## Installation
+
+### Linux
+* Install [x264](https://github.com/peterfuture/dtcodec/wiki/%E7%BC%96%E8%AF%91x264) Linux Version
+* mkdir build & cd build
+* cmake..
+* make -j8
+
+### Android
+* Install [NDK](https://github.com/peterfuture/dttv-android/wiki/1-%E5%AE%89%E8%A3%85android-arm%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E9%93%BE)
+* Install [x264](https://github.com/peterfuture/dtcodec/wiki/%E7%BC%96%E8%AF%91x264) Android Version
+* mkdir build & cd build
+* cmake -DCMAKE_TOOLCHAIN_FILE=../android_toolchain.cmake ..
+* make -j8
+
+## TEST
+
 [rtmp测试服务器部署] (https://github.com/peterfuture/dtlive_android/wiki/1-%E5%A6%82%E4%BD%95%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E5%B9%B6%E9%83%A8%E7%BD%B2red5)
+
+## Author
+
+peter_future@outlook.com
+
+# Licence
+
+GPL v3.0
